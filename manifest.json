@@ -1,0 +1,21 @@
+{
+    "name": "Todo App",
+    "short_name": "ToDo",
+    "start_url": "https://vinay-agam.github.io/Todo-React-App/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "src/image/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "src/image/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
