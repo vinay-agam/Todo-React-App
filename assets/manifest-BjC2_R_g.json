@@ -1,7 +1,7 @@
 {
     "name": "Todo App",
     "short_name": "ToDo",
-    "start_url": "./Todo-React-App/",
+    "start_url": "https://vinay-agam.github.io/Todo-React-App/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
