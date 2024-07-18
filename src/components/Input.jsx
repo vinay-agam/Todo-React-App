@@ -17,9 +17,9 @@ function Input({ setTodos, todos }) {
   return (
     <>
       <div className='flex justify-center items-center p-5 rounded-full bg-gray-900 w-full max-w-screen-md mx-auto'>
-    <form htmlFor='task' className='w-full flex justify-center items-center gap-5 p-2' onSubmit={eventSubmit}>
+    <form htmlFor='task' autocomplete="off" className='w-full flex justify-center items-center gap-5 p-2' onSubmit={eventSubmit}>
         <label className='w-[80%]' htmlFor="task">
-            <input type="text" required name="todo" id="todo" className='px-8 py-4 w-full rounded-full border-gray-800 outline-none border-2 bg-transparent text-white' placeholder='Add Task' />
+            <input autocomplete="off" type="text" required name="todo" id="todo" className='px-8 py-4 w-full rounded-full border-gray-800 outline-none border-2 bg-transparent text-white' placeholder='Add Task' />
         </label>
 
         <button type='submit' className='group px-2 py-4 w-[20%] rounded-full flex items-center justify-center bg-green-500 text-gray-900 font-bold hover:-translate-y-1 transform hover:shadow-sm  hover:shadow-white transition-all duration-300 ease-in-out'>
